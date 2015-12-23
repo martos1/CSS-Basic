@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+#roulette {
+	width: 400px;
+	height: 400px;
+	background-size: 400px 400px;
+	background-image: url("ruletka.png");
+}
+#ball div {
+
+	width: 20px;
+	height: 20px;
+	background: black;
+	border-radius: 50%;
+}
+#ball {
+	width: 330px;
+    top: 200px;
+    left: 20px;
+    margin-left: 0px;
+    padding-left: 50px;
+	position: absolute;
+	-webkit-animation: spin 4s 3 linear;
+}
+@-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}   
+}

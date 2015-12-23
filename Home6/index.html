@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Home6</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<h1>3col Fixed Header</h1>
+			<p>Exercise uses one graphic with 3 color bars positioned in the proper pixel position. Doesn't allow
+			any of the widths to change.
+			See color note in the contet section.</p>
+		</header>
+		<section>
+			<nav id="left">
+				<div>
+					<span>
+						This is the navigation
+					</span>
+					<ul>
+						<li>CHECK</li>
+						<li>OUT</li>
+						<li>MY</li>
+						<li>NOTES</li>
+					</ul>
+				</div>
+			</nav>
+			<article>
+				<h2>CONTENT: notes on this 3col Fixed assignment</h2>
+				<p>As in the 2 column exercise, the color change is detectible where the div meets the .jpg background.
+				I used the same hexidecimal number in the PS doc as was used in the HTML?</p>
+				<p>This exercise uses a main wrapper background image as one fixed strip. I get serius Float Drop when
+				I resize (reduce) the browser window. I think is what "display:inline;/* stops IE doubling margin on float"
+				is for, but would like further explaination to understand this comment.</p>
+				<p>Is keeping the #wrapper div nacessary in a stylesheet if there is also going to be seperate version
+				wrappers as we have here to contain the different background images? Or parhaps this is an exemple
+				of an inner div as the book suggests? I am still confused on that detail.</p>
+				<p>Even though I have auto margin sets on the wrapper div, the page still huggs the left side? I've tried 
+				it in all of them, bul it won't budge?</p>
+				<p>Obviously, this footer has a mind of it's own... it's in the wrapper, but the "clear" seems to be 
+				allowing it outside. However, when I remove the clear, it hugs the bottom of the header?</p>
+			</article>
+			<aside id="right">
+				<div>
+					This is the failed right side
+				</div>
+			</aside>
+		</section>
+		<footer>
+			<div>
+				&copy; 2009 Bornais not so great at Stylin with CSS
+			</div>
+		</footer>
+	</body>
+</html>

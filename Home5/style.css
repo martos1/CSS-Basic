@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+body {
+	width: 600px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#top {
+	padding-left: 0.5em;
+	height: 30px;
+	background: #0080ff;
+	color: white;
+	font-size: 20px;
+
+}
+h1 {
+	font-size: 15px;
+}
+article header {
+	font-size: 10px;
+	background: green;
+	color: white;
+}
+h2 {
+	padding-left: 0.5em;
+	margin: 0;
+}
+article p {
+	margin: 0;
+	padding: 0.5em;
+}
+article {
+	font-size: 14px;
+	margin: 10px 10px 0 10px;
+	border: 1px solid green;
+	background: #ffffce;
+}
+footer a {
+	color: #c0c0c0;
+	text-decoration: none;
+}
+footer {
+	font-size: 14px;
+	padding: 0 0 0.5em 0.5em;
+	color: #c0c0c0;
+}
+section {
+	padding-left: 12px;
+}

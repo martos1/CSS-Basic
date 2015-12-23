@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+body {
+	width: 80%;
+	margin: 0 auto;
+}
+header>div {
+	margin: 0 auto;
+	background: #008080;
+	height: 50px;
+}
+article>div {
+	margin: 0 auto;
+	width: 90.1%;
+	height: 130px;
+	margin-top: 5px;
+	background: green;
+}
+footer>div {
+	width: 44.5%;
+	height: 25px;
+	float: left;
+	margin-top: 5px;
+}
+footer {
+	overflow: auto;
+	display: block;
+	margin: 0 auto;
+}
+#left {
+	margin-left: 5%;
+	background: #8000ff;
+}
+#right {
+	margin-left: 10px;
+	background: #0080ff;
+}
+p {
+	margin: 0;
+}
